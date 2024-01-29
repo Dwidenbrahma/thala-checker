@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dwidenbrahma/thala-checker/static/css/main.f1f50a36.css",
+    "main.js": "/Dwidenbrahma/thala-checker/static/js/main.492ce8e3.js",
+    "static/media/thala2.mp4": "/Dwidenbrahma/thala-checker/static/media/thala2.f9077532beeba0fc10f3.mp4",
+    "static/media/gif2.gif": "/Dwidenbrahma/thala-checker/static/media/gif2.b6782fee030eb863a735.gif",
+    "static/media/dhoni.mp4": "/Dwidenbrahma/thala-checker/static/media/dhoni.31339d108c1869b1a497.mp4",
+    "static/media/thala3.mp4": "/Dwidenbrahma/thala-checker/static/media/thala3.14e9c21a95f39d65a0dc.mp4",
+    "static/media/gif1.gif": "/Dwidenbrahma/thala-checker/static/media/gif1.e74b9280cf305e89a22a.gif",
+    "static/media/ms.png": "/Dwidenbrahma/thala-checker/static/media/ms.2773225e0c0d84c549b9.png",
+    "static/media/gif3.gif": "/Dwidenbrahma/thala-checker/static/media/gif3.e1378d1729751622b26e.gif",
+    "index.html": "/Dwidenbrahma/thala-checker/index.html",
+    "main.f1f50a36.css.map": "/Dwidenbrahma/thala-checker/static/css/main.f1f50a36.css.map",
+    "main.492ce8e3.js.map": "/Dwidenbrahma/thala-checker/static/js/main.492ce8e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f50a36.css",
+    "static/js/main.492ce8e3.js"
+  ]
+}
