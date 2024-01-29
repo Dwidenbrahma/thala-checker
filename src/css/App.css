@@ -1,0 +1,186 @@
+/* Common styles for all screen sizes */
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #5d5858;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.App img {
+  width: 50%;
+  align-items: center;
+}
+
+.App h1 {
+  font-family: cursive;
+}
+
+.App input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px double #fff;
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    #7b44c4 0%,
+    #9183c1 51%,
+    #297eb7 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.check {
+  font-family: cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Play-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  padding: 10px;
+}
+
+.image2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  padding: 10px;
+}
+
+.image3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+}
+
+.Play-video h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Media Queries */
+
+/* Small screens (up to 600px) */
+@media (max-width: 600px) {
+  .App img {
+    width: 80%;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    width: 30%;
+  }
+}
+
+/* Medium screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .App img {
+    width: 60%;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    width: 25%;
+  }
+}
+
+/* Large screens (1025px and above) */
+@media (min-width: 1025px) {
+  .App img {
+    width: 50%;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    width: 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .App img {
+    width: 100%; /* Adjusted to fill the width of the screen */
+    max-width: none; /* Remove the max-width constraint */
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    width: 40%; /* Adjusted to fill the width of the screen */
+  }
+  .Play-video video {
+    width: 100%; /* Adjusted to fill the width of the screen */
+    max-width: none; /* Remove the max-width constraint */
+  }
+  .Play-video h1 {
+    margin-top: 70px;
+    font-size: 24px;
+  }
+}
