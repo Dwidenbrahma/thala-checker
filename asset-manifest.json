@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thala-checker/static/css/main.f1f50a36.css",
-    "main.js": "/thala-checker/static/js/main.84e8040c.js",
+    "main.js": "/thala-checker/static/js/main.b22234fa.js",
     "static/media/thala2.mp4": "/thala-checker/static/media/thala2.f9077532beeba0fc10f3.mp4",
     "static/media/gif2.gif": "/thala-checker/static/media/gif2.b6782fee030eb863a735.gif",
     "static/media/dhoni.mp4": "/thala-checker/static/media/dhoni.31339d108c1869b1a497.mp4",
@@ -11,10 +11,10 @@
     "static/media/gif3.gif": "/thala-checker/static/media/gif3.e1378d1729751622b26e.gif",
     "index.html": "/thala-checker/index.html",
     "main.f1f50a36.css.map": "/thala-checker/static/css/main.f1f50a36.css.map",
-    "main.84e8040c.js.map": "/thala-checker/static/js/main.84e8040c.js.map"
+    "main.b22234fa.js.map": "/thala-checker/static/js/main.b22234fa.js.map"
   },
   "entrypoints": [
     "static/css/main.f1f50a36.css",
-    "static/js/main.84e8040c.js"
+    "static/js/main.b22234fa.js"
   ]
 }
